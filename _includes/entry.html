@@ -1,0 +1,14 @@
+
+<meta charset="utf-8" />
+<div class="full">
+    
+  <nav>
+    {% for item in site.data.settings.lan %}
+      <a href="{{ item.url }}">{{ item.name }}</a>
+    {% endfor %}
+  </nav>
+  
+  <h1><span>{{ site.data.settings.title }}</span></h1>
+  <p class="kicker">{{ site.data.settings.description }}</p>
+  
+</div>

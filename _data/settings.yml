@@ -1,14 +1,18 @@
 #-------------------------------
 # General Site Settings
 
-title: Artists Theme
-description: Thinker // Designer // YouTuber
+title: Around the World
+description: Traveller // Thinker // Nomad
 email: artist@email
 
 
 logo: 'logo.svg'
 background-image: 'hero-bg.jpg'
 
+
+lan:
+- {name: English, url: 'index.EN.html'}
+- {name: 中文, url: 'index.CN.html'}
 
 menu:
 - {name: About Me, url: '#about-me'}
