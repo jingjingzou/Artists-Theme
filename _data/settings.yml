@@ -11,8 +11,8 @@ background-image: 'hero-bg.jpg'
 
 
 lan:
-- {name: English, url: 'index.EN.html'}
-- {name: 中文, url: 'index.CN.html'}
+- {name: English, url: 'EN/index.html'}
+- {name: 中文, url: 'CN/index.html'}
 
 menu:
 - {name: About Me, url: '#about-me'}
