@@ -1,0 +1,12 @@
+<header id="header">
+    
+  <nav>
+    {% for item in site.data.settingsCN.menu %}
+      <a href="{{ item.url }}">{{ item.name }}</a>
+    {% endfor %}
+  </nav>
+  
+  <h1><span>{{ site.data.settingsCN.title }}</span></h1>
+  <p class="kicker">{{ site.data.settingsCN.description }}</p>
+  
+</header>
