@@ -6,8 +6,11 @@
   +justify-content(space-between)
   
   .face-img
-    border-radius: 10%
+    border-radius: 50%
     background-image: url(/assets/img/#{$avatar-path})
+    background-size: 400px auto
+    background-repeat: no-repeat
+    background-position: -120px -50px
     +size(200px)
     +order(3)
     
@@ -62,7 +65,7 @@
   +display(flex)
   margin: 0 auto
   +align-items(center)
-  background-color: white
+  background: linear-gradient(white, $bgcolor)
   
   .video1
     width: 50%
