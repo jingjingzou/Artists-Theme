@@ -58,6 +58,15 @@ projects:
 - {name: Weather Dashboard, folder: 'proj-7'}
 - {name: Stripes & Co, folder: 'proj-8'}
 
+postimages:
+- {folder: 'img-1'}
+- {folder: 'img-2'}
+- {folder: 'img-3'}
+- {folder: 'img-4'}
+- {folder: 'img-5'}
+- {folder: 'img-6'}
+
+
 
 
 
