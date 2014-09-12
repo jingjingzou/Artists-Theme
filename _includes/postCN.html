@@ -14,8 +14,9 @@
           <div class="post-column">
               <div class="post-image" style="background-image: url(/assets/img/post/img-{{forloop.index}}/thumb.jpg);"></div>
               <div class="post-text">
-		        <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-		          {{ post.excerpt }}
+		        <h4 class="h4post">{{ post.title }}</h4>
+		           <p class="ppost">{{ post.content | strip_html | truncatewords: 11 }} </p>
+		           <a class="postlink" href="{{ post.url }}">Read more</a><br><br>
 		      </div>
 		  </div>
         </div>

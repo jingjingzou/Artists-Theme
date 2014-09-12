@@ -1,0 +1,73 @@
+---
+---
+
+<!DOCTYPE html>
+<html class="">
+<head>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title></title>
+  
+  <link rel="stylesheet" href="/assets/css/all.css">
+  <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+</head>
+<body>
+<div class="postpage_header">
+{% include postpage_header.html %}
+</div>
+<div class="nav_bar">
+  <nav class = "nav_item">
+    {% for item in site.data.settings.menu %}
+      <a class="main-nav-link" href="{{ item.url }}">{{ item.name }}</a>
+    {% endfor %}
+  </nav>
+</div>
+
+<div class= "main">
+	<div class="postarea">
+		<h4 class="h4post">{{ page.title }}</h4>
+		  {% if page.date %}
+			<h5 class="date">{{ page.date | date: "%A, %B %d, %Y" }}</h5>
+		  {% endif %}
+
+		<article>
+		  <section class="body">
+			{{ content }}
+		  </section>
+		</article>
+	</div>
+
+    
+	<div class="overview"> 
+	  <div class="related_posts"> Related Posts </div>  
+	    <hr style="width:70%;" align="right" margin = 10px />
+		{% for post in site.related_posts%}
+		  <div class="posttile-layout">
+		    <div class="posttitle-image" style="background-image: url(/assets/img/post/img-{{forloop.index}}/thumb.jpg);"></div>
+		    <div class= "post-title"> <a href="{{ post.url }}">{{ post.title }}</a></div>
+		    <div class="post-date" <span>{{ post.date | date_to_string }}</span> </div>
+	        {% if forloop.index == 10 %}
+	          <!-- Stop the for-loop after listing 6 posts --> 
+	          {% break %}
+	        {% endif %}
+	      </div>
+	    {% endfor %}
+	    
+	  <div class="Archive"> Archive </div> 
+	    <hr style="width:70%;" align="right" margin = 10px />	  
+	</div>
+</div>
+
+<div class="postpage_footer">
+{% include footer.html %}
+</div>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="assets/js/functions.js"></script>
+<!-- REMEMBER TO ADD ANALYTICS! -->
+</body>
+</html>
