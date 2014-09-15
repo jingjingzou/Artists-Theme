@@ -15,12 +15,17 @@ lan:
 - {name: 中文, url: 'CN/index.html'}
 
 menu:
-- {name: About Me, url: '#about-me'}
+- {name: About us, url: '#about-me'}
 - {name: Work, url: '#work'}
 - {name: Clients, url: '#clients'}
 - {name: Contact, url: '#contact'}
 
 
+navbar:
+- {name: Home, url: '/CN/index.html'}
+- {name: About us, url: '/CN/index.html/ #about-me'}
+- {name: Clients, url: '#clients'}
+- {name: Contact, url: '#contact'}
 
 
 #-------------------------------

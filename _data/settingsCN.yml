@@ -11,8 +11,8 @@ background-image: 'hero-bg.jpg'
 
 
 lan:
-- {name: English, url: 'EN/index.html'}
-- {name: 中文, url: 'CN/index.html'}
+- {name: English, url: '/EN/index.html'}
+- {name: 中文, url: '/CN/index.html'}
 
 menu:
 - {name: 关于我们, url: '#about-me'}
@@ -20,6 +20,12 @@ menu:
 - {name: Clients, url: '#clients'}
 - {name: Contact, url: '#contact'}
 
+
+navbar:
+- {name: 主页, url: '/CN/index.html'}
+- {name: 关于我们, url: '/CN/index.html/ #work'}
+- {name: Clients, url: '#clients'}
+- {name: Contact, url: '#contact'}
 
 
 
