@@ -24,7 +24,7 @@ menu:
 navbar:
 - {name: 主页, url: '/CN/index.html'}
 - {name: 关于我们, url: '/CN/index.html/ #work'}
-- {name: Clients, url: '#clients'}
+- {name: Archive, url: '/CN/archive/index.html'}
 - {name: Contact, url: '#contact'}
 
 
@@ -32,7 +32,7 @@ navbar:
 #-------------------------------
 # About Section
 
-avatar: 'travitar.jpg'
+avatar: 'ralfjing1.jpg'
 
 
 blurb: <p><strong>我是一个狼 <a href="http://travisneilson.com">digital interfaces</a>, but he also puts effort into crafting <a href="http://soundcloud.com/travis-neilson">next-level beats</a> and <a href="http://youtube.com/user/devtipsfordesigners">YouTube videos</a> about making codes happen.</p>

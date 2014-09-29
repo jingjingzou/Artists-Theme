@@ -56,8 +56,14 @@
 	      </div>
 	    {% endfor %}
 	    
-	  <div class="Archive"> Archive </div> 
-	    <hr style="width:70%;" align="right" margin = 10px />	  
+	  <div class="Categories"> Categories </div> 
+	    <hr style="width:70%;" align="right" margin = 10px />	
+	    {% for category in site.categories %}
+			<div class="categories-layout">
+				<div class="categories-image" style="background-image: url(/assets/img/post/img-{{forloop.index}}/thumb.jpg);"></div>
+				<div class= "categories-title"> <a name="{{ category | first }}">{{ category | first }}</a></div>
+	        </div>
+		{% endfor %}
 	</div>
 </div>
 

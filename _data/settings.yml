@@ -2,7 +2,7 @@
 # General Site Settings
 
 title: Around the World
-description: Traveller // Thinker // Nomad
+description: traveller // thinker// helper
 email: artist@email
 
 
@@ -11,8 +11,8 @@ background-image: 'hero-bg.jpg'
 
 
 lan:
-- {name: English, url: 'EN/index.html'}
-- {name: 中文, url: 'CN/index.html'}
+- {name: English, url: '/EN/index.html'}
+- {name: 中文, url: '/CN/index.html'}
 
 menu:
 - {name: About us, url: '#about-me'}
@@ -22,10 +22,11 @@ menu:
 
 
 navbar:
-- {name: Home, url: '/CN/index.html'}
-- {name: About us, url: '/CN/index.html/ #about-me'}
-- {name: Clients, url: '#clients'}
+- {name: Home, url: '/EN/index.html'}
+- {name: About us, url: '/EN/index.html/ #work'}
+- {name: Archive, url: '/EN/archive/index.html'}
 - {name: Contact, url: '#contact'}
+
 
 
 #-------------------------------
@@ -34,18 +35,8 @@ navbar:
 avatar: 'ralfjing.jpg'
 
 
-blurb: <p><strong>Travis specializes in making things</strong> for human people. Most of the things he makes are <a href="http://travisneilson.com">digital interfaces</a>, but he also puts effort into crafting <a href="http://soundcloud.com/travis-neilson">next-level beats</a> and <a href="http://youtube.com/user/devtipsfordesigners">YouTube videos</a> about making codes happen.</p>
+blurb: <p><strong>I am a fd <a href="http://travisneilson.com">digital interfaces</a>, but he also puts effort into crafting <a href="http://soundcloud.com/travis-neilson">next-level beats</a> and <a href="http://youtube.com/user/devtipsfordesigners">YouTube videos</a> about making codes happen.</p>
 
-
-skills:
-- {name: Communication, value: '9'}
-- {name: Organization, value: '7'}
-- {name: Learning, value: '10'}
-- {name: Teaching, value: '6'}
-- {name: Planning, value: '7'}
-- {name: Visual Design, value: '5'}
-- {name: UX Design, value: '8'}
-- {name: Programming, value: '6'}
 
 
 
@@ -62,16 +53,3 @@ projects:
 - {name: Timeline Page, folder: 'proj-6'}
 - {name: Weather Dashboard, folder: 'proj-7'}
 - {name: Stripes & Co, folder: 'proj-8'}
-
-postimages:
-- {folder: 'img-1'}
-- {folder: 'img-2'}
-- {folder: 'img-3'}
-- {folder: 'img-4'}
-- {folder: 'img-5'}
-- {folder: 'img-6'}
-
-
-
-
-
