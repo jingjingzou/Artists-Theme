@@ -2,34 +2,33 @@
   
   <h3 id="post">We Sail, write, sleep, sail, write, sleep, sail and on and on</h3>
   
+  
   <div class="post-layout">
-    {% for post in site.posts %}
-      {% if post.categories contains 'Life' %}
-        {% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
-          {% if modulo == '0' or forloop.first %}
-            <div class="row">
-          {% endif %}
-          <div class="post-unit {% cycle 'left', 'middle','right' %}">
-            <div class="post-column">
-                <div class="post-image" style="background-image: url(/assets/img/post/img-{{forloop.index}}/thumb.jpg);"></div>
-                <div class="post-text">
-                  <h4 class="h4post">{{ post.title }}</h4>
-                     <p class="ppost">{{ post.content | strip_html | truncatewords: 11 }} </p>
-                     <a class="postlink" href="{{ post.url }}">Read more</a><br><br>
-                </div>
-            </div>
-          </div>
-       
-        {% if modulo == '2' or forloop.last %}
-          </div>
+	{% for post in site.posts %}
+	  {% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
+	    {% if modulo == '0' or forloop.first %}
+	      <div class="row">
         {% endif %}
-     
-        {% if forloop.index == 6 %}
-          <!-- Stop the for-loop after filling up 2 rows of 3 columns -->
-          {% break %}
-        {% endif %}
-      {% endif %}
-    {% endfor %}
+        <div class="post-unit {% cycle 'left', 'middle','right' %}"> 
+          <div class="post-column">
+            <div class="post-image" style="background-image: url(/assets/img/post/img-{{forloop.index}}/thumb.jpg);"></div>
+              <div class="post-text">
+		        <h4 class="h4post">{{ post.title }}</h4>
+		            <p class="ppost">{{ post.content | strip_html | truncatewords: 11 }} </p>
+		              <a class="postlink" href="{{ post.url }}">Read more</a><br><br>
+		      </div>
+		    </div>
+          </div>
+        
+	    {% if modulo == '2' or forloop.last %}
+		  </div>
+	    {% endif %}
+	  
+	    {% if forloop.index == 6 %}
+	      <!-- Stop the for-loop after filling up 2 rows of 3 columns --> 
+	    {% break %}
+	 {% endif %}
+	{% endfor %}
   </div>
   
 </section>
