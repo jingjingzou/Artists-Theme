@@ -1,6 +1,14 @@
 global:
     english: English
-    chinese: 中文
+    chinese: Chinese
+    about: About us
+    project: Projects
+    work: Work
+    client: Client
+    contact: Contact
+    archive: Archive
+    title: Around the World
+    description: traveller // thinker// helper
 pages:
     home: Home
     work: Work
