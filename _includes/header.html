@@ -1,9 +1,13 @@
 <header id="header">
     
   <nav>
-    {% for item in site.data.settings.menu %}
-      <a href="{{ item.url }}">{{ item.name }}</a>
-    {% endfor %}
+      <a href="#about-me">{% t global.about%}</a>
+    
+      <a href="#work">{% t global.work%}</a>
+    
+      <a href="#clients">{% t global.client%}</a>
+    
+      <a href="#contact">{% t global.contact%}</a>
   </nav>
   
   <h1><span>{{ site.data.settings.title }}</span></h1>
