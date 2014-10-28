@@ -1,7 +1,7 @@
 # Build settings
 
 markdown: kramdown
-permalink: pretty
+permalink: /:title.html
 # paginate: 6
 # paginate_path: "/CN/archive/page:num"
 
