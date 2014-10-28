@@ -9,6 +9,10 @@ global:
     archive: Archive
     title: Around the World
     description: traveller // thinker// helper
+    Home: Home
+    Archive: Archive
+    
+    
 pages:
     home: Home
     work: Work

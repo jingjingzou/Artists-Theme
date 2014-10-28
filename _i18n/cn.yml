@@ -9,6 +9,8 @@ global:
     archive: 存档
     title: 环游世界
     description: 旅行着 // 思考着// 忙乎着
+    Home: 主页
+    Archive: Archive
     
 pages:
     home: 主页
