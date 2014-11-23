@@ -18,3 +18,9 @@ languages:          ['en', 'cn']
 language_default:   'en'
 
 fill_default_content: true
+
+blog:
+    tags:
+        url: /blog/tags/
+        title_prefix: "blog - tag: "
+        layout: tag.html

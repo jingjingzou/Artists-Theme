@@ -18,13 +18,27 @@
 <div class="postpage_header">
 {% include postpage_header.html %}
 </div>
+
 <div class="nav_bar">
+  <nav class = "nav_item">
+      <a class="main-nav-link" href="index.html">{% t global.Home%}</a>
+    
+      <a class="main-nav-link" href="index.html/ #about-me">{% t global.about%}</a>
+    
+      <a class="main-nav-link" href="archive/index.html">{% t global.Archive%}</a>
+    
+      <a class="main-nav-link" href="#contact">{% t global.contact%}</a>
+    </nav>
+</div>
+
+<!--<div class="nav_bar">
   <nav class = "nav_item">
     {% for item in site.data.settings.navbar %}
       <a class="main-nav-link" href="{{ item.url }}">{{ item.name }}</a>
     {% endfor %}
   </nav>
-</div>
+</div>--> 
+
 
 <div class= "main">
 	<div class="postarea">

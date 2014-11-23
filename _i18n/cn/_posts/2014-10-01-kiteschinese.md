@@ -1,6 +1,6 @@
 ---
 layout: postpage
 title: Post in a funny language
-categories: chinesepost
+tags: zhongguo
 ---
 This is a Chinese post.
