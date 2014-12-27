@@ -46,6 +46,11 @@
 		  {% if page.date %}
 			<h5 class="date">{{ page.date | date: "%A, %B %d, %Y" }}</h5>
 		  {% endif %}
+                  <p>Tags: 
+	          {% for tag in page.tags %}
+			{{tag}},
+		  {% endfor %}
+                  </p>
 
 		<article>
 		  <section class="body">
@@ -70,7 +75,7 @@
 	      </div>
 	    {% endfor %}
 	    
-	  <div class="Tags"> Tags </div> 
+	  <div class="Tags"> Tag archives </div> 
 	    <hr style="width:70%;" align="right" margin = 10px />
 	    {% for tag in site.tags %}
 			<div class="tags-layout">
