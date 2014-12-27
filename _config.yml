@@ -18,7 +18,3 @@ languages: ['en', 'cn']
 language_default: 'en'
 
 fill_default_content: true
-
-tags:
-    url: /tags/
-    layout: tag.html
