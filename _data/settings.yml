@@ -11,8 +11,8 @@ background-image: 'hero-bg.jpg'
 
 
 lan:
-- {name: English, url: '/english/index.html'}
-- {name: 中文, url: '/cn/english/index.html'}
+- {name: English, url: '/main/index.html'}
+- {name: 中文, url: '/cn/main/index.html'}
 
 menu:
 - {name: About us, url: '#about-me'}
@@ -22,9 +22,9 @@ menu:
 
 
 navbar:
-- {name: Home, url: '/english/index.html'}
-- {name: About us, url: '/english/index.html/ #about-me'}
-- {name: Archive, url: '/english/archive/index.html'}
+- {name: Home, url: '/main/index.html'}
+- {name: About us, url: '/main/index.html/ #about-me'}
+- {name: Archive, url: '/main/archive/index.html'}
 - {name: Contact, url: '#contact'}
 
 
