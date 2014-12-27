@@ -12,10 +12,10 @@ sass:
   style: :nested
  
  # Multiple languages
-languages:          ['en', 'cn']
+languages: ['en', 'cn']
 
 # If not config, the first of languages will be the default
-language_default:   'en'
+language_default: 'en'
 
 fill_default_content: true
 
