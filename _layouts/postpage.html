@@ -56,10 +56,10 @@
 
     
 	<div class="overview"> 
-	  <div class="related_posts"> Related Posts </div>  
+	  <div class="related_posts"> Related Posts </div>
 	    <hr style="width:70%;" align="right" margin = 10px />
 		{% for post in site.related_posts%}
-		  <div class="posttile-layout">
+		  <div class="posttitle-layout">
 		    <div class="posttitle-image" style="background-image: url(/assets/img/post/img-{{forloop.index}}/thumb.jpg);"></div>
 		    <div class= "post-title"> <a href="{{ post.url }}">{{ post.title }}</a></div>
 		    <div class="post-date" <span>{{ post.date | date_to_string }}</span> </div>
@@ -70,12 +70,12 @@
 	      </div>
 	    {% endfor %}
 	    
-	  <div class="Categories"> Tags </div> 
-	    <hr style="width:70%;" align="right" margin = 10px />	
+	  <div class="Tags"> Tags </div> 
+	    <hr style="width:70%;" align="right" margin = 10px />
 	    {% for tag in site.tags %}
-			<div class="categories-layout">
-				<div class="categories-image" style="background-image: url(/assets/img/post/img-{{forloop.index}}/thumb.jpg);"></div>
-				<div class= "categories-title"> <a href="/tags/{{ tag | first }}/index.html">{{ tag | first }}</a></div>
+			<div class="tags-layout">
+				<div class="tags-image" style="background-image: url(/assets/img/post/img-{{forloop.index}}/thumb.jpg);"></div>
+				<div class= "tags-title"> <a href="/tags/{{ tag | first }}/index.html">{{ tag | first }}</a></div>
 	        </div>
 		{% endfor %}
 	</div>
