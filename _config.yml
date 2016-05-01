@@ -29,11 +29,9 @@ blog:
 
 markdown:         redcarpet
 highlighter:      pygments
-hello:
-  en: Hello!
-  es: ¡hola!
-  fr: Bonjour!
-  de: Hallo!
+about:
+  en: About us
+  zh-CN: 关于我们  
 
 # Permalinks
 permalink: pretty
@@ -50,7 +48,7 @@ description:
   en: A i18n support plugin for <a href="http://jekyllrb.com" target="_blank">Jekyll</a> that makes multi-language support fast and intuitive, for blogs big and small. Made by <a href="https://github.com/untra" target="_blank">@untra</a>.
 
 url:              https://untra.github.com/polyglot
-baseurl:          /polyglot
+baseurl:          /
 
 paginate: 5
 # Custom vars

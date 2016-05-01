@@ -1,13 +1,14 @@
+{% assign lang = site.active_lang%}
 <header id="header">
     
   <nav>
-      <a href="#about-me">{% t global.about%}</a>
+      <a href="#about-me">{{ site.about[site.active_lang]}}</a>
     
-      <a href="#work">{% t global.work%}</a>
+      <a href="#work">{{ site.work[site.active_lang]}}</a>
     
-      <a href="#clients">{% t global.client%}</a>
+      <a href="#clients">{{ site.clients[site.active_lang]}}</a>
     
-      <a href="#contact">{% t global.contact%}</a>
+      <a href="#contact">{{ site.contact[site.active_lang]}}</a>
   </nav>
   
   <h1><span>{{ site.data.settings.title }}</span></h1>
