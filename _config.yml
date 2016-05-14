@@ -1,7 +1,7 @@
 # Build settings
 
 markdown: kramdown
-permalink: /:title.html
+#permalink: /:title.html
 # paginate: 6
 # paginate_path: "/CN/archive/page:num"
 
@@ -31,7 +31,46 @@ markdown:         redcarpet
 highlighter:      pygments
 about:
   en: About us
-  zh-CN: 关于我们  
+  zh_CN: 关于我们  
+
+work:
+  en: Work
+  zh_CN: 工作  
+
+clients:
+  en: Clients
+  zh_CN: 客户
+
+contact:
+  en: Contact
+  zh_CN: 联系我们  
+
+home:
+  en: Home
+  zh_CN: 主页
+  
+archive: 
+  en: archive
+  zh_CN: 存档
+  
+title: 
+  en: Newbies in Kiwi Land
+  zh_CN: 新来乍到新西兰 
+
+description: 
+  en: traveller // thinker// helper
+  zh_CN: 旅行者 // 思考者// 支持者
+
+blurb: 
+  en: <p><strong> We are Ralf and Jing, a Dutch-Chinese couple. We like adventure and ourdoor stuff. Apart from entertaining ourselves, we also try our best to be useful. We like to share ideas, thoughts
+      and <a href="http://s1071.photobucket.com/">beautiful things</a> in life with you. </p>
+  zh_CN: <p><strong> 我们是 Ralf 和 Jing, 一对荷兰中国的夫妻. 我们喜欢冒险和户外活动。 除了开开心心得活着, 我们尽力做有用的人. 我们喜欢和您分享新鲜主意，想法，
+      以及生活中发生的<a href="http://s1071.photobucket.com/">美丽的事情</a>。</p>
+  
+email: zouzoujing@gmail.com
+
+
+
 
 # Permalinks
 permalink: pretty
@@ -39,26 +78,21 @@ permalink: pretty
 include: ['_pages']
 exclude: ['LICENSE.md', 'README.md', 'publi.sh']
 # Setup
-title:            Polyglot
+#title:            Polyglot
 tagline:          'Straightforward I18n for Jekyll Blogs'
-description:
-  de: Ein sprachunterstützung plugin für <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, die Unterstützung der Internationalisierung schnell und intuitiv macht, für Blogs groß und klein. Hergestellt von <a href="https://github.com/untra" target="_blank">@untra</a>.
-  es: Un plugin soporte de i18n para <a href="http://jekyllrb.com" target="_blank">Jekyll</a> que hace soporte de internacionalización rápida e intuitiva, para los blogs grandes y pequeños. Hecho por <a href="https://github.com/untra" target="_blank">@untra</a>.
-  fr: Un plugin de support de i18n pour <a href="http://jekyllrb.com" target="_blank">Jekyll</a> qui fait support de l'internationalisation rapide et intuitive, pour les blogs grands et petits. Réalisé par <a href="https://github.com/untra" target="_blank">@untra</a>.
-  en: A i18n support plugin for <a href="http://jekyllrb.com" target="_blank">Jekyll</a> that makes multi-language support fast and intuitive, for blogs big and small. Made by <a href="https://github.com/untra" target="_blank">@untra</a>.
 
-url:              https://untra.github.com/polyglot
-baseurl:          /
+#url:              https://untra.github.com/polyglot
+#baseurl:          /
 
 paginate: 5
 # Custom vars
 version:          1.1.0
 
-github:
-  repo:           https://github.com/untra/polyglot
+#github:
+ # repo:           https://github.com/untra/polyglot
 
 #Polyglot
-languages: ["en", "zh-CN"]
+languages: ["en", "zh_CN"]
 default_lang: "en"
 exclude_from_localization: ["javascript", "images", "css", "public"]
 data_dir: ./_data

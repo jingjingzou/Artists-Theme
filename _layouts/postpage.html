@@ -2,7 +2,7 @@
 ---
 
 <!DOCTYPE html>
-<html class="">
+<html class="" lang="en">
 <head>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -21,13 +21,13 @@
 
 <div class="nav_bar">
   <nav class = "nav_item">
-      <a class="main-nav-link" href="index.html">{{ site.about[site.active_lang]}}</a>
+      <a class="main-nav-link" href="{{ site.baseurl}}/">{{ site.home[site.active_lang]}}</a>
     
-      <a class="main-nav-link" href="index.html/ #about-me">{{ site.about[site.active_lang]}}</a>
+      <a class="main-nav-link" href="{{ site.baseurl}}/about">{{ site.about[site.active_lang]}}</a>
     
-      <a class="main-nav-link" href="archive/index.html">{{ site.about[site.active_lang]}}</a>
+      <a class="main-nav-link" href="{{ site.baseurl}}/archive">{{ site.archive[site.active_lang]}}</a>
     
-      <a class="main-nav-link" href="#contact">{{ site.about[site.active_lang]}}</a>
+      <a class="main-nav-link" href="#contact">{{ site.contact[site.active_lang]}}</a>
     </nav>
 </div>
 

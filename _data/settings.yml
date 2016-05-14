@@ -1,11 +1,6 @@
 #-------------------------------
 # General Site Settings
 
-title: Around the World
-description: traveller // thinker// helper
-email: artist@email
-
-
 logo: 'logo.svg'
 background-image: 'hero-bg.jpg'
 
@@ -22,8 +17,8 @@ menu:
 
 
 navbar:
-- {name: Home, url: '/english/index.html'}
-- {name: About us, url: '/english/index.html/ #about-me'}
+- {name: Home, url: 'index.html'}
+- {name: About us, url: 'index.html/ #about-me'}
 - {name: Archive, url: '/english/archive/index.html'}
 - {name: Contact, url: '#contact'}
 
@@ -33,13 +28,6 @@ navbar:
 # About Section
 
 avatar: 'ralfjing.jpg'
-
-
-blurb: <p><strong>I am a fd <a href="http://travisneilson.com">digital interfaces</a>, but he also puts effort into crafting <a href="http://soundcloud.com/travis-neilson">next-level beats</a> and <a href="http://youtube.com/user/devtipsfordesigners">YouTube videos</a> about making codes happen.</p>
-
-
-
-
 
 #-------------------------------
 # Work Section

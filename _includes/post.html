@@ -4,6 +4,8 @@
   
   <div class="post-layout">
 	{% for post in site.posts %}
+	  <!-- TODO: this list needs to go over only post.lang == site.active_lang 
+	   	   And the logic of the for loop counters below needs adjusting -->
 	  {% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
 	    {% if modulo == '0' or forloop.first %}
 	      <div class="row">

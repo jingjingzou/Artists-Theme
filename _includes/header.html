@@ -9,9 +9,17 @@
       <a href="#clients">{{ site.clients[site.active_lang]}}</a>
     
       <a href="#contact">{{ site.contact[site.active_lang]}}</a>
+      <p align="center">
+      {% for tongue in site.languages %}
+      <a {% if tongue == site.active_lang %}style="font-weight: bold;"{% endif %}" 
+      href="{% if tongue == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} 
+      {{site.baseurl}}/{{ tongue }}{{page.url}} {% endif %}">{{ tongue }}</a> 
+      {% endfor %}
+      </p>
+      
   </nav>
   
-  <h1><span>{{ site.data.settings.title }}</span></h1>
-  <p class="kicker">{{ site.data.settings.description }}</p>
+  <h1><span>{{ site.title[site.active_lang]}}</span></h1>
+  <p class="kicker">{{ site.description[site.active_lang]}}</p>
   
 </header>
