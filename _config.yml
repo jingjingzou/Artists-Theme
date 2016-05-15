@@ -36,10 +36,10 @@ about:
 work:
   en: Inspirational people and projects
   zh_CN: 鼓舞人心的人和事
-
-clients:
-  en: Clients
-  zh_CN: 客户
+  
+post:
+  en: Blog
+  zh_CN: 闲话
 
 contact:
   en: Contact
@@ -62,19 +62,17 @@ description:
   zh_CN: 旅行者 // 思考者// 支持者
 
 blurb: 
-  en: <p><strong> We are Ralf and Jing, a Dutch-Chinese couple. We like adventure and ourdoor stuff. Apart from entertaining ourselves, we also try our best to be useful. We like to share ideas, thoughts
+  en: <p><strong> We are Ralf and Jing, a Dutch-Chinese couple. We like adventure and outdoor stuff. Apart from entertaining ourselves, we also try our best to be useful. We like to share ideas, thoughts
       and <a href="http://s1071.photobucket.com/">beautiful things</a> in life with you. </p>
   zh_CN: <p><strong> 我们是 Ralf 和 Jing, 一对荷兰中国的夫妻. 我们喜欢冒险和户外活动。 除了开开心心得活着, 我们尽力做有用的人. 我们喜欢和您分享新鲜的主意，想法，
       以及生活中的一些<a href="http://s1071.photobucket.com/">美丽的事务</a>。</p>
 
-post:
+post_title:
    en: Nonsense about travel, adventure, sports and nonsense
    zh_CN: 关于旅行， 冒险，运动以及胡言乱语的瞎扯
+
   
 email: zouzoujing@gmail.com
-
-
-
 
 # Permalinks
 permalink: pretty

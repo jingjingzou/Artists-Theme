@@ -4,12 +4,16 @@
     
     <div class="content-wrap">
       <nav>
-        {% for item in site.data.settings.menu %}
-          <a href="{{ item.url }}">{{ item.name }}</a>
-        {% endfor %}
+        <a href="#about-me">{{ site.about[site.active_lang]}}</a>
+      
+        <a href="#post">{{ site.post[site.active_lang]}}</a>
+    
+        <a href="#work">{{ site.work[site.active_lang]}}</a>
+    
+        <a href="#contact">{{ site.contact[site.active_lang]}}</a>
       </nav>
       
-      <p class="copyright">All content copyright 2014</p>
+      <p class="copyright">Web design attribute to <strong>Travis Neilson</strong>'s  <a href="http://devtips.github.io/Artists-Theme/">Artists-Theme</a></p>
     </div>
     
   </div>
